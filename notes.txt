@@ -1,0 +1,39 @@
+/*styles.css*/
+.container
+{
+    width:var(--container-width-lg);
+    margin: 0 auto;
+}
+
+
+.nav_container
+{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+
+
+<style>
+     body{
+        background-image: url(images/header_scm_background.jpg);
+    background-position: center;
+    background-size: cover;
+     }
+     
+</style>
+
+
+
+/* .category:nth-child(3).category_icon{
+    background: var(--color-danger);
+   padding: 0.7rem;
+   border-radius: 0.9rem;
+} */ wrong one
+
+.category:nth-child(3) .category_icon {
+    background: var(--color-danger);
+    padding: 0.7rem;
+    border-radius: 0.9rem;
+}correct one space after(3). category_icon
